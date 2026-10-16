@@ -2,6 +2,8 @@
 
 A lightweight, offline-first web app for logging business trips and fuel fill-ups, and generating a copy-ready monthly reimbursement report for your employer. Built with plain HTML, CSS and JavaScript. No build step, no dependencies, no backend.
 
+**[Live demo](https://mrpettitt.github.io/fuellog/)**
+
 ![Dashboard](docs/screenshots/dashboard.png)
 
 ## Features
@@ -33,7 +35,7 @@ A lightweight, offline-first web app for logging business trips and fuel fill-up
 
 ## Getting Started
 
-No installation required.
+No installation required. Use the [live demo](https://mrpettitt.github.io/fuellog/) or run it locally:
 
 1. Clone the repository
    ```bash
