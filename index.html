@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FuelLog - Business Travel Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <div class="logo-icon">⛽</div>
+    <div class="logo-text">Fuel<span>Log</span></div>
+  </div>
+  <div class="header-user" id="header-user"></div>
+</header>
+
+<!-- NAV -->
+<nav class="nav">
+  <button class="nav-btn active"  onclick="go('dashboard')">Dashboard</button>
+  <button class="nav-btn"         onclick="go('add')">+ New Entry</button>
+  <button class="nav-btn"         onclick="go('log')">Monthly Log</button>
+  <button class="nav-btn"         onclick="go('summary')">Summary</button>
+  <button class="nav-btn"         onclick="go('settings')">Settings</button>
+</nav>
+
+<!-- MAIN -->
+<main class="main" id="app"></main>
+
+<div class="toast" id="toast"></div>
+
+<!-- SCRIPT -->
+<script src="js/app.js"></script>
+</body>
+</html>
