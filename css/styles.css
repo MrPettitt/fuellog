@@ -17,7 +17,7 @@
   }
 
   body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: var(--bg);
     color: var(--text);
     min-height: 100vh;
@@ -46,8 +46,8 @@
     font-size: 18px;
   }
   .logo-text {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem; font-weight: 700; letter-spacing: 0.03em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem; font-weight: 700; letter-spacing: 0.03em;
   }
   .logo-text span { color: var(--amber-light); }
   .header-user { font-size: 0.85rem; color: rgba(255,255,255,0.55); letter-spacing: 0.02em; }
@@ -62,7 +62,7 @@
   }
   .nav-btn {
     padding: 1rem 1.1rem; border: none; background: none;
-    font-family: 'Lato', sans-serif; font-size: 0.8rem; font-weight: 700;
+    font-family: 'Montserrat', sans-serif; font-size: 0.8rem; font-weight: 700;
     letter-spacing: 0.07em; text-transform: uppercase;
     color: var(--muted); cursor: pointer;
     border-bottom: 3px solid transparent;
@@ -86,7 +86,7 @@
     border-bottom: 1px solid var(--border);
     display: flex; align-items: center; justify-content: space-between;
   }
-  .card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 600; }
+  .card-title { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 600; }
   .card-body { padding: 1.5rem; }
 
   /* ── Stats Grid ── */
@@ -102,7 +102,7 @@
   }
   .stat-card.green::before { background: var(--success); }
   .stat-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
-  .stat-value { font-family: 'Cormorant Garamond', serif; font-size: 1.75rem; font-weight: 700; color: var(--navy); line-height: 1; }
+  .stat-value { font-family: 'Montserrat', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--navy); line-height: 1; }
   .stat-sub { font-size: 0.75rem; color: var(--muted); margin-top: 0.3rem; }
 
   /* ── Forms ── */
@@ -114,7 +114,7 @@
   input, select, textarea {
     width: 100%; padding: 0.62rem 0.875rem;
     border: 1px solid var(--border); border-radius: var(--radius);
-    font-family: 'Lato', sans-serif; font-size: 0.9375rem; color: var(--text);
+    font-family: 'Montserrat', sans-serif; font-size: 0.9375rem; color: var(--text);
     background: white; transition: border-color 0.15s;
   }
   input:focus, select:focus, textarea:focus { outline: none; border-color: var(--navy); box-shadow: 0 0 0 3px rgba(11,31,58,0.07); }
@@ -124,7 +124,7 @@
   /* ── Buttons ── */
   .btn {
     padding: 0.62rem 1.5rem; border: none; border-radius: var(--radius);
-    font-family: 'Lato', sans-serif; font-size: 0.82rem; font-weight: 700;
+    font-family: 'Montserrat', sans-serif; font-size: 0.82rem; font-weight: 700;
     letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
     transition: all 0.15s; display: inline-flex; align-items: center; gap: 0.4rem;
   }
@@ -144,7 +144,7 @@
   }
   .type-tab {
     padding: 0.5rem 1.75rem; border: none; background: transparent;
-    font-family: 'Lato', sans-serif; font-size: 0.875rem; font-weight: 700;
+    font-family: 'Montserrat', sans-serif; font-size: 0.875rem; font-weight: 700;
     letter-spacing: 0.04em; color: var(--muted); cursor: pointer;
     border-radius: 2px; transition: all 0.15s;
   }
@@ -194,7 +194,7 @@
 
   /* ── Month / section header ── */
   .section-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem; }
-  .section-header h1 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; line-height: 1; }
+  .section-header h1 { font-family: 'Montserrat', sans-serif; font-size: 1.75rem; font-weight: 700; line-height: 1; }
   .section-header p { color: var(--muted); font-size: 0.9rem; margin-top: 0.3rem; }
 
   /* ── Month select ── */
@@ -203,7 +203,7 @@
   /* ── Empty state ── */
   .empty-state { text-align: center; padding: 3rem; color: var(--muted); }
   .empty-state .icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
-  .empty-state h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; margin-bottom: 0.5rem; color: var(--text); }
+  .empty-state h3 { font-family: 'Montserrat', sans-serif; font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text); }
 
   /* ── Toast ── */
   .toast {

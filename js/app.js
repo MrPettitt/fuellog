@@ -132,12 +132,12 @@ function rDash() {
     </div>
     <div class="stat-card">
       <div class="stat-label">Fuel Spend</div>
-      <div class="stat-value" style="font-size:1.35rem">${fmtR(st.fuel)}</div>
+      <div class="stat-value" style="font-size:1.2rem">${fmtR(st.fuel)}</div>
       <div class="stat-sub">fill-ups: ${st.fuels}</div>
     </div>
     <div class="stat-card green">
       <div class="stat-label">Reimbursement</div>
-      <div class="stat-value" style="font-size:1.35rem;color:var(--success)">${fmtR(st.reimburse)}</div>
+      <div class="stat-value" style="font-size:1.2rem;color:var(--success)">${fmtR(st.reimburse)}</div>
       <div class="stat-sub">@ R${S.settings.ratePerKm}/km</div>
     </div>
   </div>
